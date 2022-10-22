@@ -1,8 +1,9 @@
-.todo__create {
+.todo__create form {
     display: flex;
     gap: 8px;
 }
+
 .todo__create-field {
     width: 100%;
     min-height: 100%;
-}   
+}

@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 import "./Todo.css"
-export default class Todo extends Component {
+export default class Todo extends PureComponent {
   constructor(props) {
     super(props)
     this.state = {

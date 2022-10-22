@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { PureComponent } from 'react'
 
-export default class TodoInfo extends Component {
+export default class TodoInfo extends PureComponent {
   render() {
     return (
       <div className="todo__statistics">
